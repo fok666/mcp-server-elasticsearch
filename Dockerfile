@@ -4,7 +4,7 @@
 # To create a multi-arch image, run:
 # docker buildx build --platform linux/amd64,linux/arm64 --tag elasticsearch-core-mcp-server .
 
-FROM rust:1.89@sha256:c50cd6e20c46b0b36730b5eb27289744e4bb8f32abc90d8c64ca09decf4f55ba AS builder
+FROM rust:1.93@sha256:80302520b7199f0504975bca59a914015e9fee088f759875dbbc238ca9509ee1 AS builder
 
 WORKDIR /app
 
